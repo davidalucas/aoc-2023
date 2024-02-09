@@ -15,4 +15,6 @@ The instructions for installing `bazelisk` can be found in the project's [README
 - Create the following alias in your `~/.bashrc` file: `alias bazel="bazelisk"`
 - Reload the terminal, or run `source ~/.bashrc` to have the alias take effect
 
-At this point, you should be good to go. If you want autocompletion for bazel commands in your terminal, you'll need to go through some extra steps, which are detailed [here](https://bazel.build/install/completion).
+As a side-note, if you want autocompletion for bazel commands in your terminal, you'll need to go through some extra steps, which are detailed [here](https://bazel.build/install/completion).
+
+Next, we need to install buildifier. You essentially follow the same instructions as above, but starting from the bazel buildtools release page [here](https://github.com/bazelbuild/buildtools/releases) (no need to use an alias, just rename to 'buildifier' and you're good).
